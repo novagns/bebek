@@ -2,12 +2,12 @@ const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yess, seni seviyorum Nurselimm.";
+  question.innerHTML = "Nice bizli yıllaraaa!.";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://media4.giphy.com/media/6xday2oxXjltK9JUSg/giphy.gif?cid=ecf05e47k0266huf4q2cm4jwhlp7ze3t5juc1g4kb61j47qc&ep=v1_gifs_search&rid=giphy.gif&ct=g";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -18,6 +18,4 @@ noBtn.addEventListener("mouseover", () => {
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
 
-  noBtn.style.left = randomX + "px";
-  noBtn.style.top = randomY + "px";
 });
