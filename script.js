@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Nice bizli yıllaraaa!.";
+  question.innerHTML = "Nice bizli yıllaraaa!";
   gif.src =
     "https://media4.giphy.com/media/6xday2oxXjltK9JUSg/giphy.gif?cid=ecf05e47k0266huf4q2cm4jwhlp7ze3t5juc1g4kb61j47qc&ep=v1_gifs_search&rid=giphy.gif&ct=g";
 });
